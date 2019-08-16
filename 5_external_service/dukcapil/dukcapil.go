@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	zone "github.com/aimzeter/wut/five"
+	zone "github.com/aimzeter/wut/5_external_service"
 )
 
 type HTTPClient interface {

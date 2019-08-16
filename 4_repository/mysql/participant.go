@@ -1,7 +1,7 @@
 package mysql
 
 import (
-	zone "github.com/aimzeter/wut/four"
+	zone "github.com/aimzeter/wut/4_repository"
 	"github.com/jmoiron/sqlx"
 )
 

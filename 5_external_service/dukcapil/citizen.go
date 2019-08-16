@@ -3,7 +3,7 @@ package dukcapil
 import (
 	"fmt"
 
-	zone "github.com/aimzeter/wut/five"
+	zone "github.com/aimzeter/wut/5_external_service"
 )
 
 const (
