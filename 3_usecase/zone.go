@@ -6,21 +6,15 @@ type AppUsecase struct {
 	SStore StudentStore
 }
 
-//go:generate mockgen -destination=testdouble/mocks/citizen_store.go -package=mocks github.com/aimzeter/wut/three CitizenStore
-
 type CitizenStore interface {
 	Get(string) Citizen
 }
-
-//go:generate mockgen -destination=testdouble/mocks/participant_store.go -package=mocks github.com/aimzeter/wut/three ParticipantStore
 
 type ParticipantStore interface {
 	Get(string) Participant
 	Create(Participant) error
 	Update(Participant) error
 }
-
-//go:generate mockgen -destination=testdouble/mocks/student_store.go -package=mocks github.com/aimzeter/wut/three StudentStore
 
 type StudentStore interface {
 	Create(Student) error
