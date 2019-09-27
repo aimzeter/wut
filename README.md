@@ -1,1 +1,1 @@
-# wut
+# WUT (Workshop Unit Testing)
